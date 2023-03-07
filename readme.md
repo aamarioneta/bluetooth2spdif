@@ -1,6 +1,4 @@
-# bluetooth2spdif
-
-A very simple Bluetooth to S/PDIF adapter.
+# bluetooth2spdif - a very simple Bluetooth to S/PDIF adapter using a ESP32 and a IR / red led.
 
 Connect the IR led to the TX using a 220Ω resistor and GND of the ESP32 and voila, you have a bluetooth to S/PDIF adapter which you can connect to any AV receiver.
 
