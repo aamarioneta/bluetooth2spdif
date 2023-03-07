@@ -8,8 +8,8 @@ void setup() {
   Serial.begin(115200);
   Serial.println("Starting.");
   sPDIFOut = new SPDIFOut();
-  a2dp_sink.start("MyMusic2",sPDIFOut);  
-  Serial.println("Started BT MyMusic2");
+  a2dp_sink.start("Denon 2308",sPDIFOut);  
+  Serial.println("Started BT Denon 2308");
 }
 
 void loop() {
